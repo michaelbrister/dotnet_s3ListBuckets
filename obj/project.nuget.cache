@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "ngstV0Qi6Wx6J4Flk9n/4CXtnn3794UhGIfbFG8v4yfmquEiRUrUU/uR6+27kmacIdgdmzExs+DRzYb6VlU1XA==",
+  "success": true,
+  "projectFilePath": "/home/mike/src/personal/dotnet/s3list/s3list.csproj",
+  "expectedPackageFiles": [
+    "/home/mike/.nuget/packages/awssdk.core/3.7.100.7/awssdk.core.3.7.100.7.nupkg.sha512",
+    "/home/mike/.nuget/packages/awssdk.s3/3.7.101.7/awssdk.s3.3.7.101.7.nupkg.sha512",
+    "/home/mike/.nuget/packages/awssdk.securitytoken/3.7.100.7/awssdk.securitytoken.3.7.100.7.nupkg.sha512",
+    "/home/mike/.nuget/packages/awssdk.sso/3.7.100.7/awssdk.sso.3.7.100.7.nupkg.sha512",
+    "/home/mike/.nuget/packages/awssdk.ssooidc/3.7.100.7/awssdk.ssooidc.3.7.100.7.nupkg.sha512"
+  ],
+  "logs": []
+}

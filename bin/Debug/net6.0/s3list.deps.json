@@ -1,0 +1,117 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "s3list/1.0.0": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.100.7",
+          "AWSSDK.S3": "3.7.101.7",
+          "AWSSDK.SSO": "3.7.100.7",
+          "AWSSDK.SSOOIDC": "3.7.100.7",
+          "AWSSDK.SecurityToken": "3.7.100.7"
+        },
+        "runtime": {
+          "s3list.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.100.7": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.100.7"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.101.7": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.100.7"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.101.7"
+          }
+        }
+      },
+      "AWSSDK.SecurityToken/3.7.100.7": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.100.7"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SecurityToken.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.100.7"
+          }
+        }
+      },
+      "AWSSDK.SSO/3.7.100.7": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.100.7"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SSO.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.100.7"
+          }
+        }
+      },
+      "AWSSDK.SSOOIDC/3.7.100.7": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.100.7"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SSOOIDC.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.100.7"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "s3list/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.7.100.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q2rtKEOvoa81k+cLCClWXxyAW0TveHpAM5zrc3w9GALXl8cSZ+c3BwUS9tCw+EnSGZktahcAyPmL15p6/p1lJw==",
+      "path": "awssdk.core/3.7.100.7",
+      "hashPath": "awssdk.core.3.7.100.7.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.101.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n9ylC++5IRf8kHGmbr4FMhOT7Gb9SzY/KbIz/q1Ayq5N/MLOlxnFKF1+wCgeakZDb62dA0MAc6B4vHOIrFoGuA==",
+      "path": "awssdk.s3/3.7.101.7",
+      "hashPath": "awssdk.s3.3.7.101.7.nupkg.sha512"
+    },
+    "AWSSDK.SecurityToken/3.7.100.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S62NFGyKCWGv2kUpg8ct5Y1tCQsG1blqPQdt0OvqWR1lZ+1wKnQ9aiW6k38jIH3d0XPnCN86rg2IDW+dquU+qA==",
+      "path": "awssdk.securitytoken/3.7.100.7",
+      "hashPath": "awssdk.securitytoken.3.7.100.7.nupkg.sha512"
+    },
+    "AWSSDK.SSO/3.7.100.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+nSGbzdH8LJg/dNT/J1rPPhrqYfYU+Rxyj8/3fcc7npFGxUoW6LkDE8/ncFCc18om3wGUpQtF5ewgsGCnctUgg==",
+      "path": "awssdk.sso/3.7.100.7",
+      "hashPath": "awssdk.sso.3.7.100.7.nupkg.sha512"
+    },
+    "AWSSDK.SSOOIDC/3.7.100.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k/9eiFQy87E2HjNIKP2Orla52TGAJVrF/+df6T14g3J9h5OKwo9JpFjY8WbOlpBLUdrUBI64ZVFUDx0FllVngw==",
+      "path": "awssdk.ssooidc/3.7.100.7",
+      "hashPath": "awssdk.ssooidc.3.7.100.7.nupkg.sha512"
+    }
+  }
+}
